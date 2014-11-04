@@ -1,1 +1,0 @@
-mypj README
