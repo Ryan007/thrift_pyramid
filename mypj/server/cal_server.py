@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 import thriftpy
-calc_thrift = thriftpy.load("calc.thrift", module_name="calc_thrift")
+calc_thrift = thriftpy.load("mypj/thrift/cal.thrift", module_name="calc_thrift")
 
 from thriftpy.protocol import TCyBinaryProtocolFactory
 from thriftpy.transport import TCyBufferedTransportFactory
